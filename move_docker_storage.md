@@ -72,7 +72,7 @@ sudo rm /var/lib/docker
 ### Step 3: Move Data Back to SSD
 Move the data from the HDD back to its original location on the SSD:
 ```
-sudo mv /home/docker-data /var/lib/docker
+sudo mv /home/docker-data /var/lib/docker/
 ```
 
 ### Step 4: Restart Docker Service
